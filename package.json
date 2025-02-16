@@ -12,7 +12,7 @@
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "fpub": "npm publish",
+    "publish": "pnpm publish",
     "pnpm-link":"pnpm link --global"
   },
   "keywords": [
