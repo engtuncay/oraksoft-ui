@@ -1,8 +1,4 @@
-<h1>Orak Software Utility Typescript Library</h1>
-
-# Fikeybean
-
-This class wraps a map field with convenient methods.
+<h1>Orak Software Web Ui Js Utility  Library</h1>
 
 # tsconfig çıkarıldı
 
