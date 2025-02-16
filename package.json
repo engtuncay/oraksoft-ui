@@ -1,0 +1,38 @@
+{
+  "name": "oraksoft-ui",
+  "version": "0.0.7",
+  "description": "OrakSoft User Interface Helpers",
+  "type": "module",
+  "types": "dist/oraksoft-ui.d.ts",
+  "module": "dist/oraksoft-ui.js",
+  "scripts": {
+    "esmbuild": "node build.js",
+    "build":"tsup",
+    "pnpm-tsc":"pnpm tsc",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "fpub": "npm publish",
+    "pnpm-link":"pnpm link --global"
+  },
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "Tuncay Orak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engtuncay/oraksoft-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/engtuncay/oraksoft-ui.git/issues"
+  },
+  "homepage": "https://github.com/engtuncay/oraksoft-ui#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.2.2",
+    "vitest": "^2.1.2"
+  }
+}
