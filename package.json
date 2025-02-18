@@ -13,7 +13,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "fiPublish": "pnpm publish",
-    "pnpm-link":"pnpm link --global"
+    "orkui-pn-install": "pnpm install",
+    "orkui-pn-link":"pnpm link --global"
   },
   "keywords": [
     "typescript",
