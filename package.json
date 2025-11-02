@@ -15,7 +15,7 @@
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "fiPublish": "pnpm publish",
+    "npm-publish": "pnpm publish",
     "orkui-pn-install": "pnpm install",
     "orkui-pn-link":"pnpm link --global",
     "orkui-pn-link2":"pnpm link --global oraksoft-ui"
