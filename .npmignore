@@ -15,7 +15,9 @@ tsconfig.json
 build.js
 
 # Documentation and notes
-Readme-notes.md
+*.md
+!README.md
+readme-notes.md
 
 # Development dependencies and configs
 .eslintrc.*
