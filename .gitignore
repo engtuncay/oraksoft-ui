@@ -1,5 +1,4 @@
 diff
-.idea/*
 .nyc_output
 build
 lib
@@ -82,5 +81,5 @@ cypress/screenshots/
 
 .vite
 .vs
-.vscode
+
 
