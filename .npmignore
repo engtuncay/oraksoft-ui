@@ -15,7 +15,6 @@ tsconfig.json
 build.js
 
 # Documentation and notes
-README-notes.md
 Readme-notes.md
 
 # Development dependencies and configs
@@ -49,10 +48,7 @@ coverage/
 
 # Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
 
 # OS generated files
 .DS_Store
