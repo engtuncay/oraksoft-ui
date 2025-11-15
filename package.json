@@ -1,6 +1,6 @@
 {
   "name": "oraksoft-ui",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "OrakSoft User Interface Helpers (For Apps On Browser)",
   "type": "module",
   "types": "dist/oraksoft-ui.d.ts",

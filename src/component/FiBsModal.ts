@@ -1,4 +1,4 @@
-function fiBsModalInjectHtml(modalId = 'logModal') {
+function fiBsModalInjectHtml(modalId = 'logModal', closeOnBackdropClick = true) {
   let dialog = document.getElementById(modalId) as HTMLDialogElement;
   
   if (!dialog) {
@@ -28,13 +28,22 @@ function fiBsModalInjectHtml(modalId = 'logModal') {
     
     closeBtn?.addEventListener('click', () => dialog.close());
     secondaryBtn?.addEventListener('click', () => dialog.close());
+    
+    // Dışarı tıklanırsa kapanma (backdrop click)
+    if (closeOnBackdropClick) {
+      dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) {
+          dialog.close();
+        }
+      });
+    }
   }
   
   return modalId + 'Body';
 }
 
-export function fiBsModal(htmlModalContent, modalId = 'logModal') {
-  const modalBodyId = fiBsModalInjectHtml(modalId);
+export function fiBsModal(htmlModalContent, modalId = 'logModal', closeOnBackdropClick = true) {
+  const modalBodyId = fiBsModalInjectHtml(modalId, closeOnBackdropClick);
   const dialog = document.getElementById(modalId) as HTMLDialogElement;
   
   document.getElementById(modalBodyId).innerHTML = htmlModalContent;
