@@ -1,9 +1,7 @@
-import { fiPostJson } from './core/FiPostJson';
-import { fiPostJsonVal } from './core/FiPostJsonVal';
-
 export function testOrakSoftUi(name: string): string {
   return `Hello, ${name}!`;
 }
 
-export { fiPostJsonVal };
-export { fiPostJson };
+export { fiPostJsonVal } from './core/FiPostJsonVal';
+export { fiPostJson } from './core/FiPostJson';
+export { fiBsModal } from './component/FiBsModal';
