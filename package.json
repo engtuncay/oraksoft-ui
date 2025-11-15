@@ -11,14 +11,14 @@
   "scripts": {
     "esmbuild": "node build.js",
     "build":"tsup",
-    "pnpm-tsc":"pnpm tsc",
+    "pn-tsc":"pnpm tsc",
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "fi-publish": "pnpm publish",
-    "orkui-pn-install": "pnpm install",
-    "orkui-pn-link":"pnpm link --global",
-    "orkui-pn-link2":"pnpm link --global oraksoft-ui"
+    "pn-publish": "pnpm publish",
+    "pn-install": "pnpm install",
+    "pn-link":"pnpm link --global",
+    "pn-link2":"pnpm link --global oraksoft-ui"
   },
   "keywords": [
     "typescript",
