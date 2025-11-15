@@ -1,6 +1,6 @@
 {
   "name": "oraksoft-ui",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "OrakSoft User Interface Helpers (For Apps On Browser)",
   "type": "module",
   "types": "dist/oraksoft-ui.d.ts",
@@ -15,7 +15,7 @@
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "publish": "pnpm publish",
+    "fi-publish": "pnpm publish",
     "orkui-pn-install": "pnpm install",
     "orkui-pn-link":"pnpm link --global",
     "orkui-pn-link2":"pnpm link --global oraksoft-ui"
