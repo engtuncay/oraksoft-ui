@@ -1,15 +1,18 @@
 import { FiNumber } from "../core/FiNumber";
 import { FiString } from "../core/FiString";
 
-export class Fim {
+/**
+ * Fmt : FiMeta
+ */
+export class Fmt {
 
   ftTxKey?: string;
   ftTxValue?: string;
   ftLnKey?: number;
 
   // Static Methods
-  static create(txKey: string): Fim {
-    let fiMeta = new Fim();
+  static create(txKey: string): Fmt {
+    let fiMeta = new Fmt();
     fiMeta.ftTxKey = txKey;
     return fiMeta;
   }
