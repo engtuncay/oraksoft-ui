@@ -3,29 +3,29 @@ import { FiString } from "../core/FiString";
 
 export class FiMeta {
 
-  fimTxKey?: string;
-  fimTxValue?: string;
-  fimLnKey?: number;
+  ftTxKey?: string; //fimTxKey?: string;
+  ftTxValue?: string;
+  ftLnKey?: number;
 
   // Static Methods
   static create(txKey: string): FiMeta {
     let fiMeta = new FiMeta();
-    fiMeta.fimTxKey = txKey;
+    fiMeta.ftTxKey = txKey;
     return fiMeta;
   }
 
   // Getters
 
   public getTxKeyNtn(): string {
-    return FiString.orEmpty(this.fimTxKey);
+    return FiString.orEmpty(this.ftTxKey);
   }
 
   public getTxValueNtn(): string {
-    return FiString.orEmpty(this.fimTxValue);
+    return FiString.orEmpty(this.ftTxValue);
   }
 
   public getLnKeyOrMinusOne(): number {
-    return FiNumber.orMinusOne(this.fimLnKey);
+    return FiNumber.orMinusOne(this.ftLnKey);
   }
 
 }

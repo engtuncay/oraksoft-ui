@@ -58,11 +58,11 @@ export class FiKeybean {
   }
 
   public getFieldName(): string {
-    return this.fiGetAsStringNtn(FimFiCol.ofcTxFieldName().fimTxKey);
+    return this.fiGetAsStringNtn(FimFiCol.fcTxFieldName().ftTxKey);
   }
 
   public isNumber(): boolean {
-    const fieldType = this.fiGetAsStringNtn(FimFiCol.ofcTxFieldType().fimTxKey).toLowerCase();
+    const fieldType = this.fiGetAsStringNtn(FimFiCol.fcTxFieldType().ftTxKey).toLowerCase();
     return fieldType === "number" || fieldType === "float" || fieldType === "double" || fieldType === "int";
   }
 
