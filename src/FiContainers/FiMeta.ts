@@ -28,4 +28,8 @@ export class FiMeta {
     return FiNumber.orMinusOne(this.ftLnKey);
   }
 
+  public getLnKey(): number {
+    return this.ftLnKey;
+  }
+
 }
