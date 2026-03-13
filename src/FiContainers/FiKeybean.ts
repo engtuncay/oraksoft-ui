@@ -43,7 +43,7 @@ export class FiKeybean {
   constructor() {
   }
 
-  public addFieldByFiMeta(fiMeta: FiMeta, txValue: any):void {
+  public addFieldByFiMeta(fiMeta: FiMeta, txValue: any): void {
     this.fiPut(fiMeta.getTxKeyNtn(), txValue);
   }
 
@@ -53,7 +53,7 @@ export class FiKeybean {
    * @param fiMeta 
    * @param txValue 
    */
-  public addFieldByFm(fiMeta: FiMeta, txValue: any):void {
+  public addFieldByFm(fiMeta: FiMeta, txValue: any): void {
     this.addFieldByFiMeta(fiMeta, txValue);
   }
 
@@ -64,6 +64,10 @@ export class FiKeybean {
   public isNumber(): boolean {
     const fieldType = this.fiGetAsStringNtn(FimFiCol.fcTxFieldType().ftTxKey).toLowerCase();
     return fieldType === "number" || fieldType === "float" || fieldType === "double" || fieldType === "int";
+  }
+
+  public hasKey(txKey: string): boolean {
+    return this.mapData.has(txKey);
   }
 
 }
