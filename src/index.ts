@@ -1,3 +1,4 @@
+export { FiDocExt } from './FiComps/FiDocExt';
 export { OrakSoftUi } from './OrakSoftUi';
 export { FiKeybean } from './FiContainers/FiKeybean';
 export { FimFiCol } from './FiMeta/FimFiCol';
@@ -13,6 +14,8 @@ export { fiPostFormData } from './FiRests/FiPostFormData';
 export { fiPostJsonVal } from './core/FiPostJsonVal';
 export { fiPostJson } from './core/FiPostJson';
 export { fiBsModal } from './component/FiBsModal';
+
+
 
 
 
