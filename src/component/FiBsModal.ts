@@ -6,8 +6,8 @@ function fiBsModalInjectHtml(modalId = 'logModal', closeOnBackdropClick = true) 
     dialog = document.createElement('dialog');
     dialog.id = modalId;
     
-    const dialogContent = `
-      <div class="modal-content">
+    const dialogContent = /*html*/`
+      <div class="modal-content"> 
         <div class="modal-header">
           <h5 class="modal-title" id="${modalId}Label">Loglar</h5>
           <button type="button" class="btn-close" aria-label="Close"></button>
@@ -18,8 +18,11 @@ function fiBsModalInjectHtml(modalId = 'logModal', closeOnBackdropClick = true) 
         </div>
       </div>
     `;
+
+    
     
     dialog.innerHTML = dialogContent;
+
     document.body.appendChild(dialog);
     
     // Dialog içindeki butonları scoped olarak seç

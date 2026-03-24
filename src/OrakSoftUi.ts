@@ -8,7 +8,7 @@ import { fiPostFormData } from './FiRests/FiPostFormData';
  * @property {function} fiPostFormData
  * @property {function} fiBsModal
  */
-export const OrakSoftUi = {
+export const Osfu = {
   testOrakSoftUi,
   fiPostFormData,
   fiPostJson,

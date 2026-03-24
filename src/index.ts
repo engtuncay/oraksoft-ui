@@ -1,5 +1,5 @@
 export { FiDocExt } from './FiComps/FiDocExt';
-export { OrakSoftUi } from './OrakSoftUi';
+export { Osfu } from './OrakSoftUi';
 export { FiKeybean } from './FiContainers/FiKeybean';
 export { FimFiCol } from './FiMeta/FimFiCol';
 export { FiNumber } from './core/FiNumber';
