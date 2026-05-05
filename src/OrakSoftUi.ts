@@ -1,4 +1,4 @@
-import { fiBsModal, testOrakSoftUi } from "./index";
+import { fiBsModal, FkbList, testOrakSoftUi } from "./index";
 import { fiPostJson } from './core/FiPostJson';
 import { fiPostFormData } from './FiRests/FiPostFormData';
 
@@ -8,10 +8,11 @@ import { fiPostFormData } from './FiRests/FiPostFormData';
  * @property {function} fiPostFormData
  * @property {function} fiBsModal
  */
-export const Osfu = {
+export const Osjs = {
   testOrakSoftUi,
   fiPostFormData,
   fiPostJson,
   fiBsModal,
+  FkbList,
   // diğer fonksiyonlar...
 };
